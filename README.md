@@ -1,4 +1,5 @@
-# JscriptPaddleCalculator
+# Javascript Paddle Calculator
+
 Kayak Paddle Length Calculator
 
 Use this calculator to calculate the Kayak paddle length based on one torso measurement.
