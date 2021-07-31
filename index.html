@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" async defer></script>
+</head>
+
+<body>
+    <div class="headLine">
+        <h1>Calculate Your Kayak Paddle Length</h1>
+        <div class="outer">
+            <div class=leftPaneOuter>
+                <div class="leftPane">
+                    <div class=leftContent>
+                    <h2>Measure Your Torso Length</h2>
+                    <p>While sitting upright on the floor, measure the distance, in cm,
+                        from your nose to the floor.</p>
+                        <p>Enter this length the calculator.</p>
+                    </div>
+                    <div class="rightContent">
+                    <img src="images/ladysitting.png" height="165" width="120" />
+                    </div>
+                </div>
+            </div>
+            <div class="rightPane">
+                <h2>Enter Torso Length</h2>
+                <p>Height from floor(cm).</p>
+
+                    <input 
+                    id="torso"
+                    type="number"  
+                    name="torso" 
+                    class="torsoField" 
+                    defaultValue="78"
+                    min="55" max="92">
+                    <button onclick="calcLength()" class="btn">Calculate</button>
+
+                <p>Set Paddle Length to:</p>
+                <div class="resultBox">
+                    <p class="result" id='result'></p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="refRence">
+            <p>By <a href="https://webwings.com.au/web-design-sunshine-coast/"> Webwings Internet Marketing</a></p>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>

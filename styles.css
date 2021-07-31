@@ -1,0 +1,94 @@
+h1, h2 {
+    color: brown;
+}
+
+.p {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.outer {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #B3B3B3;
+    margin:10px;
+    padding: 12px;
+    border: 1px solid #8C8C8C;
+    border-radius: 8px;
+}
+
+.headLine {
+    text-align: center;
+    font-family: sans-serif;
+    color: brown;
+}
+
+.leftPaneOuter {
+    display: flex;
+    flex-direction:row;
+}
+
+.leftPane {
+    display: flex;
+    background-color: #D9D9D9;
+    padding:20px;
+    margin:20px 0 20px 0;
+    border: 1px solid #8C8C8C;
+    border-radius: 8px;
+}
+
+.rightPane {
+    color: #333;
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin:20px 0 20px 0;
+    border: 1px solid #8C8C8C;
+    border-radius: 8px;
+}
+
+.leftContent {
+    color: #333;
+    margin:10px;
+    padding:10px;
+}
+
+.rightContent{
+    color: #333;
+    margin: 10px;
+    padding: 10px;
+}
+
+.refRence {
+    margin-top: 6px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.torsoField {
+    font-size: 16px;
+    min-height: 32px;
+    color: #333;
+    padding-left:8px;
+    width: 72px;
+}
+
+.resultBox {
+    background-color: rgb(247, 245, 176);
+    border: 1px solid #8C8C8C;
+    border-radius: 6px;
+}
+
+.result {
+    min-height: 26px;
+    font-size: 16px;
+    padding: 8px 4px 2px 4px;
+}
+
+.btn {
+    background-color: forestgreen;
+    color: #f2f2f2;
+    min-height: 26px;
+    font-size: 16px;
+    padding: 8px;
+}
