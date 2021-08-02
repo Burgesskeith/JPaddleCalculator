@@ -21,10 +21,10 @@
                     <h2>Measure Your Torso Length</h2>
                     <p>While sitting upright on the floor, measure the distance, in cm,
                         from your nose to the floor.</p>
-                        <p>Enter this length the calculator.</p>
+                        <p>Enter this length the calculator and press the calculate button.</p>
                     </div>
                     <div class="rightContent">
-                    <img src="images/ladysitting.png" height="165" width="120" />
+                    <img src="images/ladySitting.png" height="165" width="120" />
                     </div>
                 </div>
             </div>
@@ -32,16 +32,19 @@
                 <h2>Enter Torso Length</h2>
                 <p>Height from floor(cm).</p>
 
-                    <input 
+                    <input oninput="calcLength(this.value)"
                     id="torso"
-                    type="number"  
+                    type="range"  
                     name="torso" 
                     class="torsoField" 
                     defaultValue="78"
-                    min="55" max="92">
-                    <button onclick="calcLength()" class="btn">Calculate</button>
-
+                    min="55" max="92"
+                    >
+                    <div>
+                        <p>Your torso: <span class="displayLength" id='displayLength'></span> cm</p>
+                    </div>
                 <p>Set Paddle Length to:</p>
+                
                 <div class="resultBox">
                     <p class="result" id='result'></p>
                 </div>

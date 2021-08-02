@@ -12,7 +12,7 @@ h1, h2 {
     flex-flow: row wrap;
     justify-content: space-evenly;
     background-color: #B3B3B3;
-    margin:10px;
+    margin:12px;
     padding: 12px;
     border: 1px solid #8C8C8C;
     border-radius: 8px;
@@ -36,6 +36,7 @@ h1, h2 {
     margin:20px 0 20px 0;
     border: 1px solid #8C8C8C;
     border-radius: 8px;
+    max-width:600px;
 }
 
 .rightPane {
@@ -70,7 +71,7 @@ h1, h2 {
     min-height: 32px;
     color: #333;
     padding-left:8px;
-    width: 72px;
+    width: 180px;
 }
 
 .resultBox {
@@ -85,10 +86,7 @@ h1, h2 {
     padding: 8px 4px 2px 4px;
 }
 
-.btn {
-    background-color: forestgreen;
-    color: #f2f2f2;
-    min-height: 26px;
-    font-size: 16px;
-    padding: 8px;
+.displayLength {
+    color: #157efb;
+    margin: 0 0 6px 0;
 }
